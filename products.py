@@ -4,7 +4,7 @@ while True:
 	if name == 'q':
 		break #跳出程序
 	price = input('请输入商品价格：')
-	price = int(price)
+	price = int(price)#把字符型元素转换成整数型
 	products.append([name,price])#把商品名称和价格装入products清单
 print(products)
 
